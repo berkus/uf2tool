@@ -1,0 +1,10 @@
+[package]
+name = "uf2tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1.0.94", features = ["backtrace"] }
+argh = "0.1.12"
+culpa = "1.0.2"
+uftwo = "0.1.3"
